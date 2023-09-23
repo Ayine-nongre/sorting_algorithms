@@ -1,6 +1,15 @@
 #ifndef _SORT_
 #define _SORT_
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <sys/stat.h>
+#include <string.h>
+#include <stdbool.h>
+#include <fcntl.h>
+
 /**
  * struct listint_s - Doubly linked list node
  *
